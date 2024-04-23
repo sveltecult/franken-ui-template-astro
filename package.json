@@ -1,0 +1,25 @@
+{
+  "name": "franken-ui-template-astro",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro check && astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/check": "^0.5.10",
+    "astro": "^4.6.3",
+    "franken-ui": "^0.0.11",
+    "postcss": "^8.4.38",
+    "postcss-combine-duplicated-selectors": "^10.0.3",
+    "postcss-sort-media-queries": "^5.2.0",
+    "prettier": "^3.2.5",
+    "prettier-plugin-astro": "^0.13.0",
+    "prettier-plugin-tailwindcss": "^0.5.14",
+    "tailwindcss": "^3.4.3",
+    "typescript": "^5.4.5"
+  }
+}
